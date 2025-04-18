@@ -57,7 +57,7 @@ function getdata(e) {
     // Optional: switch to login view if you're using toggle
     container.classList.remove("active");
     // Or redirect:
-    // window.open("../HTML/index.html", "_self");
+    // window.open("./HTML/index.html", "_self");
 }
 
 document.getElementById("signup").addEventListener("click", getdata);
